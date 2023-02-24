@@ -101,3 +101,12 @@ navSlide ();
 
 
 // Select the element you want to animate
+gsap.registerPlugin(ScrollTrigger);
+
+const tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".post",
+    }
+});
+
+tl.to(".post" , {y:-10, opacity:1 , Transform:"scale(0.9)" } )
