@@ -97,3 +97,7 @@ document.addEventListener ("scroll", () => {
 // calling functions
 typingEffect ();
 navSlide ();
+
+
+
+// Select the element you want to animate
