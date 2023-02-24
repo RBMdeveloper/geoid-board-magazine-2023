@@ -383,4 +383,8 @@ footer{
   background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIHo4MrEhlsTMO5-A8VKjTpR9atqZYMAEeGNe8cCH9q8iM2mSlndzlpHl5JKN7H_Rw2lUt-XeVG3pzWGK9EypMlVDhSCyrvz8Ncnht1SR-T-8unU6cpvD-k3MSXiZXLe4sQX7t9OtPAF5lZrpK1i5fnpeu5TbOhTS0eLYh2rqCJZbiRgxOnjcLC7PBzw/s320/20230223_174047_0000.png);
   top: 0px;
 }
-
+#container img{
+  width: 300px;
+  filter: drop-shadow(5px 5px 40px );
+  margin-top: 20px;
+}

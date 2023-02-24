@@ -106,6 +106,9 @@ gsap.registerPlugin(ScrollTrigger);
 const tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".post",
+        markers: true,
+        start:"bottom 70%",
+        // end: "bottom 10%",
     }
 });
 
